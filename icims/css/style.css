@@ -1,0 +1,282 @@
+/* Works with javascript to hide empty <p> */
+/* .emptyP {
+  display: none;
+} */
+/* Works with javascript to hide empty <p> */
+
+/* Search form  */
+
+#borderlft h2 {
+  margin-bottom: 1rem;
+}
+/* button for jobs */
+.jobs-Wrap-apply {
+  max-width: 94%;
+  margin-top: 1rem;
+}
+.btn.jobbtn {
+  color: var(--White);
+  border-radius: 4px;
+  background: var(--Blue);
+  padding: 0.3rem 1rem;
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.cadmusJobs.JBP {
+  padding: 0;
+  margin-bottom: 3rem;
+}
+.search-form {
+  margin: 2rem 0 0.5rem 0;
+}
+.search-form select {
+  border-radius: 0;
+  padding: 0.8rem 0.5rem;
+  background: var(--Blue-desatOP);
+  border: none;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.selectWrap {
+  display: grid;
+  margin-right: 1rem;
+}
+.search-form button {
+  background: var(--Blue);
+
+  color: #fff;
+  border: 1px solid var(--Blue);
+  width: 150px;
+  padding: 0.13rem;
+}
+.input-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.input-wrapperSF {
+  display: flex;
+}
+.search-form input {
+  max-width: 69%;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.btnForm {
+  width: 100%;
+}
+.search-form form label {
+  padding: 0.5rem 0;
+}
+
+/* Search form above */
+.jobswrapper .genwrap {
+  padding: 1rem 0;
+}
+
+.jobswrapper .textbtn {
+  color: var(--Blue);
+  text-transform: uppercase;
+  border: 1px solid var(--Blue);
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.jobswrapper p strong em span {
+  font-family: var(--font-sans-serif) !important;
+  font-weight: 500;
+  color: var(--Blue);
+  font-size: 1.2rem !important;
+  -webkit-font-smoothing: antialiased !important;
+  line-height: 1.4;
+}
+.jobswrapper h2,
+.jobWrapper.JP h2 {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.jobswrapper h3 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.jobWrapper.JP.JBD strong {
+  font-weight: 400;
+  color: var(--Mbody);
+}
+.jobWrapper.JP.JBD h3 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: var(--Blue);
+}
+.jobWrapper.JP h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--Blue);
+  font-size: 0.8rem;
+}
+
+#genwrap .flexRow li h3 {
+  font-weight: 500;
+}
+.jobWrapper.JP h3.jb-SB span {
+  color: var(--Blue);
+  font-weight: 500;
+}
+.jobWrapper.JP h3.jb-SB {
+  color: var(--Mbody);
+}
+.jobswrapper .locResults .BLD {
+  font-weight: 500;
+}
+.jobswrapper .locResults li {
+  margin-bottom: 0.5rem;
+  color: var(--Mbody);
+  font-size: 0.8rem;
+  margin-right: 0.5rem;
+}
+.jobswrapper .jd-search {
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
+.jobswrapper .jd-search span {
+  color: var(--Mbody);
+  font-size: 0.8rem;
+}
+.jobswrapper .jd-search strong {
+  font-weight: 500;
+  color: var(--Mbody);
+}
+
+.jobInfo span {
+  margin-right: 1rem;
+  font-size: 0.7rem;
+}
+.jobswrapper.sec {
+  border-bottom: 1px solid var(--Grey-light);
+  height: 100%;
+}
+
+/* .jobswrapper:first-child {
+  border-top: 1px solid var(--Grey-light);
+} */
+
+.jobInfo {
+  display: flex;
+  background: var(--Blue-desatOP);
+  padding: 0.5rem;
+}
+/* CadmusJobs styling */
+
+#borderlft::before {
+  position: absolute;
+  height: 96%;
+  width: 2px;
+  content: "";
+  border-left: 1px solid var(--Grey-light);
+  left: -8px;
+  top: 3rem;
+}
+/* margin controls job page */
+#genwrap h3.jb-SB,
+#genwrap h3.jb-SB span {
+  font-size: 0.8rem;
+}
+
+#genwrap h3.jb-SB.TM {
+  margin-top: 0.5rem;
+}
+.flexRow.NM h3 {
+  margin: 0;
+}
+#borderlft p {
+  margin-bottom: 0.2rem !important;
+}
+.descriptionWrap br {
+  display: none;
+}
+.qualificationswrap,
+.responsibilitiesWrap {
+  margin-top: 0.5rem;
+}
+/* margin controls job page */
+#borderlft {
+  position: relative;
+  padding-top: 1rem;
+}
+.addedTxtCS {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#genwrap {
+  padding-top: 4rem;
+}
+.returnBTN {
+  padding-bottom: 1rem;
+}
+.cadmusJobs ul {
+  margin-left: 2rem;
+}
+.cadmusJobs ol li ul li,
+.cadmusJobs ul li ul li {
+  list-style-type: circle;
+  margin-left: 1rem !important;
+}
+
+.cadmusJobs ul li {
+  list-style-type: disc;
+}
+.cadmusJobs ul li ul,
+.cadmusJobs ol li ul {
+  margin-left: 0;
+}
+.cadmusJobs ol,
+.cadmusJobs ul {
+  box-sizing: border-box;
+}
+.cadmusJobs ol li {
+  list-style: decimal;
+}
+
+.cadmusJobs .jobswrapper h3 {
+  margin-top: 1rem;
+}
+.cadmusJobs #genwrap p span {
+  color: var(--Blue);
+  font-weight: 400;
+}
+
+.input-wrapper {
+  margin-bottom: 0.5rem;
+}
+.cadmusJobs .flexRow li {
+  list-style: none;
+  margin-right: 0.5rem;
+}
+
+.cadmusJobs .flexRow li p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+ul.flexRow {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0;
+  align-items: baseline;
+}
+@media screen and (max-width: 580px) {
+  .selectWrap {
+    display: unset;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .jobswrapper .jd-search {
+    margin-bottom: 0;
+  }
+}
